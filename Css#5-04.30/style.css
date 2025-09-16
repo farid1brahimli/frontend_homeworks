@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.first-task {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.phone {
+    width: 35%;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphone16 {
+    width: 350px;
+    padding-top: 100px;
+}
+
+
+.iphone,
+.name {
+    color: #414141;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+
+.spans {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.iphone-product {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.iphone-products {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.iphone-button {
+    font-size: 14px;
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 30px 40px;
+    text-align: center;
+}

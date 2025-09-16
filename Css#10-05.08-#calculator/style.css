@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-container {
+  width: 28%;
+  height: 600px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr repeat(5, 1fr);
+  display: grid;
+  gap: 2px;
+  grid-template-areas: "a a a a " "b c d e " "f g h x" "j k q l" "m n r p" "o o t s";
+}
+.calc-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc-container:first-child {
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.screen {
+  background-color: black;
+  color: white;
+  font-size: 100px;
+}
+
+.add-operation {
+  background-color: #939393;
+  color: white;
+  font-size: 40px;
+}
+.add-operation:hover {
+  background-color: #bcbcbc;
+}
+
+.operation {
+  background-color: #FE9E0C;
+  color: white;
+  font-size: 40px;
+}
+.operation:hover {
+  background-color: white;
+  color: #FE9E0C;
+}
+
+.numbers {
+  background-color: #333333;
+  color: white;
+  font-size: 50px;
+}
+.numbers:hover {
+  background-color: #5f5e5e;
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.x {
+  grid-area: x;
+}
+
+.j {
+  grid-area: j;
+}
+
+.k {
+  grid-area: k;
+}
+
+.q {
+  grid-area: q;
+}
+
+.l {
+  grid-area: l;
+}
+
+.m {
+  grid-area: m;
+}
+
+.n {
+  grid-area: n;
+}
+
+.r {
+  grid-area: r;
+}
+
+.p {
+  grid-area: p;
+}
+
+.o {
+  grid-area: o;
+}
+
+.t {
+  grid-area: t;
+}
+
+.s {
+  grid-area: s;
+}
+
+/*# sourceMappingURL=style.css.map */
