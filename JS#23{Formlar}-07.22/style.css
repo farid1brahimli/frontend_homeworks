@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(251, 236, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+form input,select,button{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid bisque;
+    background-color: bisque;
+}
+button{
+    padding: 10px;
+    background-color: tan;
+}
+form textarea{
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    background-color: bisque;
+
+}
+.repeat-income{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.check{
+    width: auto;
+    margin: 0 10px;
+}

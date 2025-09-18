@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <label>
+            Xəstənin tam adı: <br>
+            <input type="text" name="name" required>
+        </label>
+        <label  >
+            Vəsiqə seriya və nömrəsi: <br>
+            <input type="text" name="pasport" required>
+        </label>
+        <label  >
+            Cins: <br>
+            <select name="gender" id="">
+                <option value="male">Kişi</option>
+                <option value="famale">Qadın</option>
+            </select>
+        </label>
+        <label  >
+            Yaş: <br>
+            <input type="number" name="age">
+        </label>
+        <label>
+            Email ünvanı: <br>
+            <input type="email" name="email">
+        </label>
+        <label  >
+            Telefon nömrəsi: <br>
+            <input type="number" name="mobile">
+        </label>
+        <label  >
+            Simptonların təsviri: <br>
+            <textarea name="description"></textarea>
+        </label>
+        <label class="repeat-income" >
+            Təkrar qəbul:
+            <input class="check" type="checkbox" name="restart">
+        </label>
+        <button>Göndər</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
